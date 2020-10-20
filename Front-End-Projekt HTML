@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End-Projekt</title>
+</head>
+
+<body>
+    <!-- Miejsce na wyszukiwanie, LOGO, Przyciski zmiany jezyka, logowania, koszyk-->
+    <header class="nagłówek1">
+
+        <section class="naglowek-lewa">
+            <input type="text" placeholder="Wyszukaj na stronie" class="wyszukaj">
+            <img class="lupa" src="../zdjecia/LUpa.png" alt="Lupa">
+
+        </section>
+        <section class="naglowek-srodek">
+            <img class="logo" src="" alt="logo">
+        </section>
+        <section class="naglowek-lewa">
+            <img src="" alt="jezyk">
+            <img src="" alt="koszyk">
+            <img src="" alt="logowanie">
+        </section>
+    </header>
+    <!--Miejsce na nagiwacje na naszej stronie typu nowości dział męski/damski itd -->
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <!--Główny kontent strony powrzucac tutaj zdjecia z opisem itd-->
+    <main>
+
+    </main>
+    <!--Miejsce na rzeczy jak kontakt logo pk formularz-->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
