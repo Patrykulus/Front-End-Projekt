@@ -1,0 +1,43 @@
+body{
+    background-color: #819196;
+}
+#container{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#main_logo{
+    height: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #c5d4db;
+
+}
+#logo{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+#center{
+    float: left;
+    margin-left: 20px;
+    
+}
+input::placeholder{
+    color: blueviolet;
+    width: 200px;
+}
+#ikony{
+    float: left;
+}
+#content{
+
+}
+#section_sklep{
+
+}
+#footer{
+
+}
