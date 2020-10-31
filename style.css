@@ -1,5 +1,6 @@
 body{
-    background-color: #819196;
+    background-color:#DFF0E7;
+    font-family: 'Red Rose', cursive;
 }
 #container{
     width: auto;
@@ -8,32 +9,103 @@ body{
 
 }
 #main_logo{
-    height: 80px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: #c5d4db;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ADBAB3;
 
 }
-#logo{
+#logopk{
     float: left;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
 
+}
+
+#logosspk{
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+
+
+}
+.text_logo{
+    clear: both;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 10px;
+    font-size: 600;
+    text-align: center;
+    color: rgb(58, 143, 195);
+    
+    
 }
 #center{
-    float: left;
-    margin-left: 20px;
+    clear: both;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 80px;
+    text-align: center;
+
     
 }
 input::placeholder{
-    color: blueviolet;
+    color: gray;
+    text-align: center;
     width: 200px;
 }
 #ikony{
-    float: left;
+    clear: both;
+    position: absolute;
+    right: 15px;
+    left: 0;
+    top: 15px;
+    text-align: right;
+}
+.mainitem_nav{
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color:#99F2C4;
+
+    
+}
+.przycisk{
+    float:left;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40px;
+    color: #68706C ;
+    letter-spacing: 2px;
+    border-right: #68706C dotted 1px;
+}
+.przycisk:hover{
+    background-color:#47705B;
+    color: #DFF0E7;
+    cursor: pointer;
 }
 #content{
+    
 
+}
+#section_img{
+   display: inline-block;
+    margin-top: 20px;
+   width: auto;
+   margin-left: 8%;
+  
+
+}
+.zdjecia{
+    float: left;
+    margin-left: 10px;
+   
+    
 }
 #section_sklep{
 
