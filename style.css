@@ -1,35 +1,46 @@
-body{
-    background-color:#DFF0E7;
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body {
+    background-color: #DFF0E7;
     font-family: 'Red Rose', cursive;
 }
-#container{
+
+#container {
     width: auto;
     margin-left: auto;
     margin-right: auto;
 
 }
-#main_logo{
+
+#main_logo {
     height: 120px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #ADBAB3;
+    background-color: #9CB4C3;
 
 }
-#logopk{
+
+#logopk {
     float: left;
     margin-left: 30px;
     margin-top: 30px;
 
 }
 
-#logosspk{
+#logosspk {
     float: left;
     margin-left: 20px;
     margin-top: 30px;
 
 
 }
-.text_logo{
+
+.text_logo {
     clear: both;
     position: absolute;
     right: 0;
@@ -38,10 +49,11 @@ body{
     font-size: 600;
     text-align: center;
     color: rgb(58, 143, 195);
-    
-    
+
+
 }
-#center{
+
+#center {
     clear: both;
     position: absolute;
     right: 0;
@@ -49,67 +61,113 @@ body{
     top: 80px;
     text-align: center;
 
-    
+
 }
-input::placeholder{
-    color: gray;
+
+input {
+    border-radius: 5px;
+    background-color: #99F2C4 ;
+    border: none;
+}
+
+input::placeholder {
+    color:#68706C;
     text-align: center;
     width: 200px;
-}
-#ikony{
-    clear: both;
-    position: absolute;
-    right: 15px;
-    left: 0;
-    top: 15px;
-    text-align: right;
-}
-.mainitem_nav{
-    height: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    background-color:#99F2C4;
-
+    height: 20px;
     
 }
-.przycisk{
-    float:left;
+
+.ikony {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    text-align: right;
+    background-color: #9CB4C3;
+    border: none;
+
+
+}
+
+.ikona {
+    background-color: #9CB4C3;
+    border: none;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+
+.ikona:hover:hover {
+    cursor: pointer;
+    color: green
+}
+
+
+.mainitem_nav {
+    height: auto;
     text-align: center;
-    margin-top: 20px;
+    background-color: #99F2C4;
+}
+
+.przycisk {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10vh;
     font-size: 20px;
     font-weight: 600;
-    margin-left: 40px;
-    color: #68706C ;
-    letter-spacing: 2px;
-    border-right: #68706C dotted 1px;
+    color: #68706C;
+    letter-spacing: 1px;
+
 }
-.przycisk:hover{
-    background-color:#47705B;
+
+.przycisk:hover {
+    background-color: #47705B;
     color: #DFF0E7;
     cursor: pointer;
 }
-#content{
-    
 
-}
-#section_img{
-   display: inline-block;
+#content {}
+
+#section_img {
+    display: inline-block;
     margin-top: 20px;
-   width: auto;
-   margin-left: 8%;
-  
+    width: auto;
+    margin-left: 25vh;
 
 }
-.zdjecia{
+
+.zdjecia {
     float: left;
     margin-left: 10px;
-   
-    
-}
-#section_sklep{
+
 
 }
-#footer{
 
+#section_sklep {}
+
+
+footer {
+    background-color: lightgrey;
+    height: auto;
+    width: auto;
+}
+
+.footer-left {
+    display: inline-block;
+    width: 50vw;
+    text-align: center;
+
+}
+
+.footer-right {
+    float: right;
+    width: 50vw;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+button {
+    font-size: 30px;
+    border: none;
+    background-color: lightgrey;
 }
