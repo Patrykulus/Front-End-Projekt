@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    color: #282b27;
+    list-style-type: none;
 
 }
 
 body {
-    background-color: #DFF0E7;
+    background-color: #F1EDF7;
     font-family: 'Red Rose', cursive;
 }
 
@@ -21,7 +23,7 @@ body {
     height: 120px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #9CB4C3;
+    background-color: #B5B3BA;
 
 }
 
@@ -41,14 +43,16 @@ body {
 }
 
 .text_logo {
+    display: block;
     clear: both;
     position: absolute;
     right: 0;
     left: 0;
     top: 10px;
-    font-size: 600;
+    font-size: 48px;
     text-align: center;
     color: rgb(58, 143, 195);
+    font-weight: 700;
 
 
 }
@@ -66,8 +70,10 @@ body {
 
 input {
     border-radius: 5px;
-    background-color: #99F2C4 ;
+    background-color: #F1EDF7 ;
     border: none;
+    width: 20%;
+    height: 25px;
 }
 
 input::placeholder {
@@ -83,62 +89,80 @@ input::placeholder {
     right: 15px;
     top: 15px;
     text-align: right;
-    background-color: #9CB4C3;
+    background-color: #B5B3BA;
     border: none;
 
 
 }
 
 .ikona {
-    background-color: #9CB4C3;
+    background-color: #B5B3BA;
     border: none;
     font-size: 20px;
     margin-left: 15px;
 
 }
 
-.ikona:hover:hover {
+.ikona:hover {
     cursor: pointer;
-    color: green
 }
 
 
 .mainitem_nav {
     height: auto;
     text-align: center;
-    background-color: #99F2C4;
+    background-color: #C0A4F9;
+    
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+    position: sticky;
+    left:0;
+
+    width: 100%;
+   
 }
 
 .przycisk {
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: inline-block;
     text-align: center;
     margin-left: 10vh;
     font-size: 20px;
     font-weight: 600;
-    color: #68706C;
+    color: #757378;
     letter-spacing: 1px;
 
 }
 
 .przycisk:hover {
-    background-color: #47705B;
-    color: #DFF0E7;
+    background-color: #5E507A;
+    color: #F1EDF7;
     cursor: pointer;
 }
 
-#content {}
+#content {
+
+}
 
 #section_img {
-    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     margin-top: 20px;
-    width: auto;
-    margin-left: 25vh;
+    width: 85%;
+    
+   
 
 }
 
 .zdjecia {
     float: left;
-    margin-left: 10px;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    text-align: center;
 
 
 }
@@ -146,28 +170,55 @@ input::placeholder {
 #section_sklep {}
 
 
-footer {
-    background-color: lightgrey;
+#footer {
+    background-color: #5E507A;
     height: auto;
     width: auto;
+    
 }
 
 .footer-left {
-    display: inline-block;
-    width: 50vw;
+   
+    float: left;
     text-align: center;
-
+    margin-left: 10%;
+   
 }
 
 .footer-right {
     float: right;
-    width: 50vw;
     text-align: center;
+    margin-right: 10%;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
     letter-spacing: 5px;
 }
 
 button {
     font-size: 30px;
     border: none;
-    background-color: lightgrey;
+    background-color: #5E507A;
+}
+#content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: justify;
+    
+}
+h1{
+    font-size: 40px;
+   margin-top: 2%;
+   text-align: center;
+   
+}
+.stopowe_menu{
+    float: left;
+    margin-right: 20px;
+    margin-top: 4%;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.social{
+    margin-top: auto;
 }
