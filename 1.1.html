@@ -1,59 +1,99 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekt Front-end</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bc965c8b13.js" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
-    <div>
-        <div class="header container">
-            <div class= "headeritem logo">
-                <img src="img/logo_01.png" />
-                <img src="img/logo_02.png"/>
+    <div id="container">
+        <div id="main_logo">
+            <div id="logopk">
+                <img src="img/logo_pk.png" width="60x" height="60px" />
+                <img src="" alt="">
             </div>
-            <div class="center">
-             <input type="text" placeholder="Wyszukaj na stronie" class="wyszukiwarka"/>
-             <img src="/img/"/>
+            <div id="logosspk">
+                <img src="img/logo_sspk.png" width="120px" height="60px" />
             </div>
-            <div>
-                <img src="/img/"/> <!--zmina języka-->
-                <img src="/img/"/>
-                <img src="/img/"/>
+            <div class="text_logo">
+                <h1>
+                    Poznaj Samorząd Studencki PK
+                </h1>
             </div>
+            <div id="center">
+                <input type="text" placeholder="Wyszukaj na stronie" class="wyszukiwarka" />
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="ikony">
+                <button class="ikona"><i class="fas fa-shopping-basket"></i></button>
+                <button class="ikona"><i class="fas fa-globe-americas"></i></button>
+                <button class="ikona"><i class="fas fa-question"></i></button>
+
+            </div>
+            <div style="clear:both;"></div>
         </div>
-        <div class="main_container">
+        <div id="content">
             <div class="mainitem_nav">
-                <ul>
-                    <li>Strona główna</li>
-                    <li>Sklep</li>
-                    <li>Organizacje studencskie</li>
-                    <li>Kalendarium</li>
-                </ul>
+
+                <div class="przycisk">Strona główna</div>
+                <div class="przycisk"> Sklep</div>
+                <div class="przycisk">Organizacje studenckie</div>
+                <div class="przycisk">Kalendarium</div>
+                <div style="clear:both;"></div>
+
             </div>
-            <div class="section_img">
-                Zdjęcia z akcji studenckich
-                <img src="img/"/>
+            <div id="section_img">
+
+                <div class="zdjecia"><img src="img/img01.jpg" height="200" /></div>
+                <div class="zdjecia"><img src="img/img02.jpg" height="200" /></div>
+                <div class="zdjecia"><img src="img/img03.jpg" height="200" /></div>
+                <div class="zdjecia"><img src="img/img04.jpg" height="200" /></div>
+                <div style="clear:both;"></div>
             </div>
             <div class="section_img_text">
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error consectetur quod, deleniti inventore facilis quidem officia sapiente cupiditate molestias perferendis, vitae, numquam impedit alias reprehenderit ipsa eaque? Voluptate, delectus et.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error consectetur quod, deleniti inventore
+                    facilis quidem officia sapiente cupiditate molestias perferendis, vitae, numquam impedit alias
+                    reprehenderit ipsa eaque? Voluptate, delectus et.
                 </p>
 
             </div>
-            <div class="section_sklep">
+            <div id="section_sklep">
                 <h1>SKLEP</h1>
-                <img src="img/"/>
-                <img src="" alt=""/>
+                <img src="img/" />
+                <img src="" alt="" />
             </div>
         </div>
     </div>
-    <div class="footer">
-        <p>
-        Projekt front-end dupa dupabvfhvbljd
-        </p>
-    </div>
+    <footer>
+        <div class="footer-left">
+            <P>O NAS</P>
+            <ul>
+                <li><a href="">GALERIA</a></li>
+                <li><a href="">KONTAKT</a></li>
+                <li><a href="">STRONA GŁÓWNA</a></li>
+                <li><a href="">REGULAMIN</a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <p>SOCIAL MEDIA</p>
+            <ul class="social">
+               <button><i class="fab fa-facebook-f"></i></button>
+               <button><i class="fab fa-twitter"></i></button>
+               <button><i class="fab fa-instagram"></i></button>
+               <button><i class="fab fa-youtube"></i></button>
+            </ul>
+        </div>
+
+
+    </footer>
 
 </body>
+
 </html>
