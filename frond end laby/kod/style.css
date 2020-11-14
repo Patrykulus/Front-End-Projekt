@@ -22,6 +22,7 @@ body {
     float: left;
     margin-left: 30px;
     margin-top: 30px;
+    height: auto;
 
 }
 
@@ -34,14 +35,13 @@ body {
 }
 
 .text_logo {
-    width: 50vw;
+    width: 50%;
     top: 10px;
     font-size: 48px;
     text-align: center;
     color: rgb(58, 143, 195);
     font-weight: 700;
-    position: absolute;
-    margin-left: 25vw;
+    margin-left: 25%;
 
 
 }
@@ -103,11 +103,11 @@ input::placeholder {
     text-align: center;
     background-color: #C0A4F9;
     position: -webkit-sticky;
-    /* Safari */
-   /* top: 0;
+    top: 0;
     position: sticky;
     left: 0;
-    width: 100%;*/
+    width: 100%;
+    z-index: 100;
 
 }
 
@@ -200,6 +200,11 @@ h1 {
     text-align: center;
 
 }
+h2 {
+    font-size: 30px;
+    margin-top: 2%;
+    text-align: center;
+}
 
 .stopowe_menu {
     float: left;
@@ -259,4 +264,31 @@ a.header {
     margin: auto;
     margin-top: 5px;
 }
+#wydarzenie{
+    float: left;
+    display: block;
 
+}
+#adapciak_zdj{
+    
+    display: block;
+}
+#wydarzenie_2{
+    float: left;
+    display: block;
+    
+}
+#rajd_zdj{
+    
+    display: block;
+}
+
+#wydarzenie_3{
+    float: left;
+    display: block;
+    
+}
+#czyz_zdj{
+    
+    display: block;
+}
