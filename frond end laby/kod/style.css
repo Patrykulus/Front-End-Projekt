@@ -4,45 +4,51 @@
     text-decoration: none;
     color: #282b27;
     list-style-type: none;
+    box-sizing: border-box;
 
 }
 
 body {
-    background-color: #F1EDF7;
+    background-color: #FEFCFF;
     font-family: 'Red Rose', cursive;
+    margin: 0;
 }
 
 #main_logo {
-    height: 120px;
-    background-color: #F1EDF7;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    align-content: center;
+    padding: 1%;
+    width: 100%;
+    background-color: #FEFCFF;
 
 }
 
 #logopk {
     float: left;
-    margin-left: 30px;
+    margin-left: 2%;
     margin-top: 30px;
+    height: auto;
 
 }
 
 #logosspk {
     float: left;
-    margin-left: 20px;
     margin-top: 30px;
-
-
 }
 
 .text_logo {
-    width: 50vw;
-    top: 10px;
+    
+    width: 50%;
     font-size: 48px;
-    text-align: center;
+    text-align: justify;
     color: rgb(58, 143, 195);
     font-weight: 700;
-    position: absolute;
-    margin-left: 25vw;
-
+    margin-left: 13%;
 
 }
 
@@ -51,7 +57,7 @@ body {
     position: absolute;
     right: 0;
     left: 0;
-    top: 80px;
+    top: 14%;
     text-align: center;
 
 
@@ -59,9 +65,9 @@ body {
 
 input {
     border-radius: 5px;
-    background-color: #f5f5f5;
+    background-color: #FEFCFF;
     border: 1 px solid #282b27;
-    ;
+    
     width: 20%;
     height: 25px;
 }
@@ -79,14 +85,14 @@ input::placeholder {
     right: 15px;
     top: 15px;
     text-align: right;
-    background-color: #F1EDF7;
+    background-color: #FEFCFF;
     border: none;
 
 
 }
 
 .ikona {
-    background-color: #F1EDF7;
+    background-color: #FEFCFF;
     border: none;
     font-size: 20px;
     margin-left: 15px;
@@ -99,15 +105,17 @@ input::placeholder {
 
 
 .mainitem_nav {
+    flex: 1 1 auto;
+    align-self: stretch;
     height: auto;
     text-align: center;
     background-color: #C0A4F9;
     position: -webkit-sticky;
-    /* Safari */
-   /* top: 0;
+    top: 0;
     position: sticky;
     left: 0;
-    width: 100%;*/
+    width: 100%;
+    z-index: 100;
 
 }
 
@@ -130,7 +138,15 @@ input::placeholder {
     cursor: pointer;
 }
 
-#content {}
+#container{
+   display: -webkit-flex;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+}
 
 #section_img {
     margin-left: auto;
@@ -138,9 +154,14 @@ input::placeholder {
     text-align: center;
     margin-top: 20px;
     width: 85%;
-
-
-
+}
+#section_img_text{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: left;
+    align-self: stretch;
 }
 
 .zdjecia {
@@ -153,9 +174,6 @@ input::placeholder {
 
 
 }
-
-
-
 
 #footer {
     background-color: #5E507A;
@@ -187,6 +205,13 @@ button {
 }
 
 #content {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: stretch;
+    align-content: left;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -199,6 +224,11 @@ h1 {
     margin-top: 2%;
     text-align: center;
 
+}
+h2 {
+    font-size: 30px;
+    margin-top: 2%;
+    text-align: center;
 }
 
 .stopowe_menu {
@@ -259,4 +289,52 @@ a.header {
     margin: auto;
     margin-top: 5px;
 }
+.item_art_1{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: left;
+    margin-top: 5%;
+}
+div.wydarzenie{
+    max-width: 50%;
+    align-self: stretch;
+    margin-top: 4%;
+}
+div.zdj{
+    flex: 1 1 auto;
+    min-width: 300px;
+    margin-left: 7%;
+}
+
+.item_art_2{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: left;
+    margin-top: 5%; 
+    margin-right: 5%;
+}
+div.rajd_zdj{
+   
+    flex: 1 1 auto;
+    min-width: 300px;
+    margin-right: 0;
+   
+}
+div.wydarzenie_2{
+    
+    max-width: 47%;
+    align-self: stretch;
+    margin-top: 4%;
+    
+    
+}
+h3{
+    letter-spacing: 1px;
+    
+}
+
 
