@@ -2,16 +2,15 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: #282b27;
     list-style-type: none;
     box-sizing: border-box;
-
+    color: #282b27;
 }
 
 body {
     background-color: #FEFCFF;
     font-family: 'Red Rose', cursive;
-    margin: 0;
+    margin: 0;  
 }
 
 #main_logo {
@@ -20,7 +19,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    
     align-content: center;
     padding: 1%;
     width: 100%;
@@ -52,33 +50,7 @@ body {
 
 }
 
-#center {
-    margin: -25px;
-    clear: both;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 14%;
-    text-align: center;
 
-}
-
-input {
-    border-radius: 5px;
-    background-color: #FEFCFF;
-    border: 1 px solid #282b27;
-    
-    width: 20%;
-    height: 25px;
-}
-
-input::placeholder {
-    color: #68706C;
-    text-align: center;
-    width: 200px;
-    height: 20px;
-
-}
 
 .ikony {
     position: absolute;
@@ -87,8 +59,6 @@ input::placeholder {
     text-align: right;
     background-color: #FEFCFF;
     border: none;
-
-
 }
 
 .ikona {
@@ -96,13 +66,11 @@ input::placeholder {
     border: none;
     font-size: 20px;
     margin-left: 15px;
-
 }
 
 .ikona:hover {
     cursor: pointer;
 }
-
 
 .mainitem_nav {
     flex: 1 1 auto;
@@ -116,26 +84,28 @@ input::placeholder {
     left: 0;
     width: 100%;
     z-index: 100;
-
 }
-
 .przycisk {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  
+    margin-top: 1%;
+    margin-bottom: 1%;
     display: inline-block;
     text-align: center;
-    margin-left: 10vh;
+    margin-left: 2.5%;
     font-size: 20px;
     font-weight: 600;
-    color: #757378;
-    letter-spacing: 1px;
-
+    letter-spacing: 2px;
+    height: 5%;
+    
 }
 
 .przycisk:hover {
-    background-color: #5E507A;
-    color: #F1EDF7;
+   
+    color:  #5E507A;
     cursor: pointer;
+}
+.przycisk>a:hover{
+    color: #FEFCFF;
 }
 
 #container{
@@ -171,24 +141,17 @@ input::placeholder {
     margin-right: 5px;
     margin-top: 5px;
     text-align: center;
-
-
 }
-
 #footer {
     background-color: #5E507A;
     height: auto;
     width: auto;
 }
-
 .footer-left {
-
     float: left;
     text-align: center;
     margin-left: 10%;
-
 }
-
 .footer-right {
     float: right;
     text-align: center;
@@ -216,14 +179,12 @@ button {
     margin-right: auto;
     width: 80%;
     text-align: justify;
-
 }
 
 h1 {
     font-size: 40px;
     margin-top: 2%;
     text-align: center;
-
 }
 h2 {
     font-size: 30px;
@@ -296,11 +257,13 @@ a.header {
     flex-wrap: nowrap;
     align-items: left;
     margin-top: 5%;
+   
 }
 div.wydarzenie{
     max-width: 50%;
     align-self: stretch;
     margin-top: 4%;
+    margin-left: 3%;
 }
 div.zdj{
     flex: 1 1 auto;
@@ -315,26 +278,21 @@ div.zdj{
     flex-wrap: nowrap;
     align-items: left;
     margin-top: 5%; 
-    margin-right: 5%;
+    margin-right: 3%;
 }
 div.rajd_zdj{
-   
     flex: 1 1 auto;
     min-width: 300px;
-    margin-right: 0;
-   
+    margin-right: 0; 
+    margin-left: 3%;
 }
 div.wydarzenie_2{
-    
-    max-width: 47%;
+    max-width: 51%;
     align-self: stretch;
-    margin-top: 4%;
-    
-    
+    margin-top: 4%;  
 }
 h3{
-    letter-spacing: 1px;
-    
+    letter-spacing: 1px;  
 }
 
 
