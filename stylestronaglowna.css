@@ -52,16 +52,6 @@ body {
 
 }
 
-#center {
-    margin: -25px;
-    clear: both;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 14%;
-    text-align: center;
-
-}
 
 input {
     border-radius: 5px;
