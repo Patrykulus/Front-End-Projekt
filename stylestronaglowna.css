@@ -13,7 +13,7 @@ body {
     margin: 0;  
 }
 
-#main_logo {
+.header {
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
@@ -21,7 +21,6 @@ body {
     align-items: center;
     align-content: center;
     padding: 1%;
-    width: 100%;
     background-color: #FEFCFF;
 
 }
@@ -40,17 +39,15 @@ body {
 }
 
 .text_logo {
-    
-    width: 50%;
+    flex: 1 1 auto;
+}
+.text_logo h1 {
     font-size: 48px;
     text-align: center;
     color: rgb(58, 143, 195);
     font-weight: 700;
-    margin-left: 13%;
-
+    margin-right: 10%;
 }
-
-
 
 .ikony {
     position: absolute;
@@ -108,15 +105,15 @@ body {
     color: #FEFCFF;
 }
 
-#container{
-   display: -webkit-flex;
-   display: flex;
-   flex-direction: column;
-   flex-wrap: nowrap;
-   align-items: center;
-   justify-content: center;
-   align-content: center;
-}
+.mainitem_container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+   }
 
 #section_img {
     margin-left: auto;
@@ -136,7 +133,7 @@ body {
 
 .zdjecia {
     float: left;
-    display: block;
+    display: flex;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
@@ -195,7 +192,7 @@ h2 {
 .stopowe_menu {
     float: left;
     margin-right: 20px;
-    margin-top: 4%;
+    margin-top: 2%;
     font-size: 20px;
     letter-spacing: 2px;
 }
@@ -262,37 +259,72 @@ a.header {
 div.wydarzenie{
     max-width: 50%;
     align-self: stretch;
-    margin-top: 4%;
-    margin-left: 3%;
+    margin-top: 5%;
+   
 }
 div.zdj{
     flex: 1 1 auto;
     min-width: 300px;
-    margin-left: 7%;
+    margin-left: 10%;
+    margin-top: 4%;
 }
 
-.item_art_2{
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: left;
-    margin-top: 5%; 
-    margin-right: 3%;
-}
-div.rajd_zdj{
-    flex: 1 1 auto;
-    min-width: 300px;
-    margin-right: 0; 
-    margin-left: 3%;
-}
-div.wydarzenie_2{
-    max-width: 51%;
-    align-self: stretch;
-    margin-top: 4%;  
-}
 h3{
     letter-spacing: 1px;  
 }
-
+@media screen and (max-width:1025px){
+    .section_img_text{
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        
+    }
+    .wydarzenie{
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .zdj {
+        -webkit-flex-direction: column;
+        flex-direction: column; 
+    }
+    }
+}
+@media screen and (max-width:769px){
+    .section_img_text{
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: stretch;
+        align-content: stretch;
+        flex-wrap: wrap;
+    }
+    .wydarzenie{
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: stretch;
+        align-content: stretch;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    .zdj {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: stretch;
+        align-content: stretch;
+        flex-wrap: wrap;
+    }
+   
+    .content {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: stretch;
+        align-content: stretch;
+        flex-wrap: wrap;
+    }
+}
 
