@@ -264,6 +264,70 @@ a.header {
     max-height: 200px;
 
 }
+.produkt_1_kolumna
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+
+.sklep_zdj img
+{
+    height: 400px;
+    width: 400px;
+    border:5px solid;
+    border-color: slateblue;
+}
+
+.sklep_opis
+{
+    font-size: 30px;
+    padding-left: 58px;
+    height: 45px;
+    width: 400px;
+    border:5px solid;
+    border-color: slateblue;
+}
+.sklep_opis2
+{
+    font-size: 30px;
+    padding-left: 125px;
+    height: 45px;
+    width: 400px;
+    border:5px solid;
+    border-color: slateblue;
+}
+.sklep_opis3
+{
+    font-size: 30px;
+    padding-left: 28px;
+    height: 45px;
+    width: 400px;
+    border:5px solid;
+    border-color: slateblue;
+}
+.dodaj{
+    padding-left: 80px;
+    margin-top: -0.5%;
+    font-size: 30px;
+    padding-left: 28px;
+}
+.dodaj button{
+    padding:2px;
+    background-color:slateblue;
+    color: white;
+}
+.cena{
+    padding-left: 60px;
+}
+.cena2{
+    padding-left: 0px;
+}
+.cena3{
+    padding-left: 95px;
+}
+
 
 @keyframes slidy {
     0% { left: 0%; }
