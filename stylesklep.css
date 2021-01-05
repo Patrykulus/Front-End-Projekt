@@ -280,7 +280,6 @@ a.header {
     flex-wrap: wrap;
     color: white;
     background-color: slateblue;
-    margin-left: 5%;
 }
 
 .smycz{
@@ -419,7 +418,8 @@ a.header {
     align-content:center;
     border: 5px solid;
     border-color: slateblue;
-    place-items: center;
+    justify-content: center;
+    align-content:center;
 }
 .brelok_opis
 {
@@ -461,11 +461,9 @@ a.header {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items:center;
     align-content:center;
     border: 5px solid;
     border-color: slateblue;
-    place-items: center;
 }
 .portfel_opis
 {
@@ -511,7 +509,6 @@ a.header {
     align-content:center;
     border: 5px solid;
     border-color: slateblue;
-    place-items: center;
 }
 .koszulka_opis
 {
@@ -582,6 +579,7 @@ a.header {
     align-content:center;
    
 }
+
 .laser_dodaj button{
     grid-column: 2/3;
     grid-row: 12/13;
