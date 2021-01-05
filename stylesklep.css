@@ -51,43 +51,18 @@ body {
 }
 
 .text_logo {
-    
-    width: 50%;
+    flex: 1 1 auto;
+}
+.text_logo h1 {
     font-size: 48px;
     text-align: center;
     color: rgb(58, 143, 195);
     font-weight: 700;
-    margin-left: 13%;
-
+    margin-right: 10%;
 }
 
-#center {
-    margin: -25px;
-    clear: both;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 14%;
-    text-align: center;
 
-}
 
-input {
-    border-radius: 5px;
-    background-color: #FEFCFF;
-    border: 1 px solid #282b27;
-    
-    width: 20%;
-    height: 25px;
-}
-
-input::placeholder {
-    color: #68706C;
-    text-align: center;
-    width: 200px;
-    height: 20px;
-
-}
 
 .ikony {
     position: absolute;
@@ -129,23 +104,26 @@ input::placeholder {
 }
 
 .przycisk {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
     display: inline-block;
     text-align: center;
-    margin-left: 10vh;
+    margin-left: 2.5%;
     font-size: 20px;
     font-weight: 600;
-    color: #757378;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    height: 5%;
 
 }
-
 .przycisk:hover {
-    background-color: #5E507A;
-    color: #F1EDF7;
+   
+    color:  #5E507A;
     cursor: pointer;
 }
+.przycisk>a:hover{
+    color: #FEFCFF;
+}
+
 
 #container{
    display: -webkit-flex;
@@ -157,14 +135,8 @@ input::placeholder {
    align-content: center;
 }
 
-#section_img {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 20px;
-    width: 85%;
-}
-#produkty{
+
+.produkt{
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
@@ -313,7 +285,7 @@ a.header {
     font-size: 30px;
     padding-left: 28px;
 }
-.dodaj button{
+.dodaj>button{
     padding:2px;
     background-color:slateblue;
     color: white;

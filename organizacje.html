@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projekt Front-end</title>
-    <link rel="stylesheet" href="styleorganizacje.css" type="text/css" />
+    <link rel="stylesheet" href="stylestronaglowna.css" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;600&display=swap"
       rel="stylesheet"
@@ -16,8 +16,8 @@
   </head>
 
   <body>
-    <div id="container">
-      <div id="main_logo">
+    
+      <div class="header">
         <div id="logopk">
           <a class="header" href="https://www.pk.edu.pl/index.php?lang=pl"
             ><img src="img/logo_pk.png" width="60px" height="60px"
@@ -28,42 +28,24 @@
             ><img src="img/logo_sspk.png" width="120px" height="60px"
           /></a>
         </div>
-        <div class="text_logo">Poznaj Samorząd Studencki PK</div>
-        <div id="center">
-          <input
-            type="text"
-            placeholder="Wyszukaj na stronie"
-            class="wyszukiwarka"
-          />
-
-          <i class="fas fa-search"></i>
-        </div>
+        <div class="text_logo"><h1>Samorząd Studencki PK</h1></div>
         <div class="ikony">
           <button class="ikona"><i class="fas fa-shopping-basket"></i></button>
           <button class="ikona"><i class="fas fa-globe-americas"></i></button>
           <button class="ikona"><i class="fas fa-question"></i></button>
         </div>
         <div style="clear: both"></div>
-      </div>
-
-      <div class="mainitem_nav">
-        <div class="przycisk">
-          <a href="stronaglowna.html">Strona główna</a>
         </div>
+  
+       <div class="mainitem_nav">
+        <div class="przycisk"><a href="stronaglowna.html">Strona główna</a></div>
         <div class="przycisk"><a href="sklep.html">Sklep</a></div>
-        <div class="przycisk">
-          <a href="organizacje.html">Organizacje studenckie</a>
-        </div>
-        <div class="przycisk">
-          <a
-            href="https://www.pk.edu.pl/index.php?option=com_jevents&view=month&layout=calendar&Itemid=1299&lang=pl"
-            target="blank"
-            >Kalendarium
-          </a>
-        </div>
+        <div class="przycisk"><a href="organizacje.html">Organizacje studenckie</a></div>
+        <div class="przycisk"><a href="https://www.pk.edu.pl/index.php?option=com_jevents&view=month&layout=calendar&Itemid=1299&lang=pl" target="blank">Kalendarium </a></div>
         <div style="clear: both"></div>
       </div>
 
+     <div class= "mainitem_container">
       <div id="slider">
         <figure>
           <img src="img/img01.jpg" height="200px" width="300px" alt="" />
@@ -73,79 +55,52 @@
           <img src="img/img05.png" height="200px" width="300px" alt="" />
         </figure>
       </div>
-      <div id="content">
-        <div class="section_img_text">
-          <h1>Nasze organizacje</h1>
-        </div>
-
-        <div class="item_art_1">
+      
+       <h2>Nasze organizacje</h2>
+      
+        <selection>
+        
           <div class="organizacje">
-            <h3>AZS</h3>
-            <p>
-              zdjęcia plus opis Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Sunt mollitia ducimus earum facilis. Possimus,
-              voluptatibus! At saepe et maxime quibusdam, qui ratione,
-              consequuntur eligendi aliquid deserunt dicta fugiat voluptas
-              quo.<br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              mollitia ducimus earum facilis. Possimus, voluptatibus! At saepe
-              et maxime quibusdam, qui ratione, consequuntur eligendi aliquid
-              deserunt dicta fugiat voluptas quo.<br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              mollitia ducimus earum facilis. Possimus, voluptatibus! At saepe
-              et maxime quibusdam, qui ratione, consequuntur eligendi aliquid
-              deserunt dicta fugiat voluptas quo.<br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              mollitia ducimus earum facilis. Possimus, voluptatibus! At saepe
-              et maxime quibusdam, qui ratione, consequuntur eligendi aliquid
-              deserunt dicta fugiat voluptas quo.<br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              mollitia ducimus earum facilis. Possimus, voluptatibus! At saepe
-              et maxime quibusdam, qui ratione, consequuntur eligendi aliquid
-              deserunt dicta fugiat voluptas quo.<br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              mollitia ducimus earum facilis. Possimus, voluptatibus! At saepe
-              et maxime quibusdam, qui ratione, consequuntur eligendi aliquid
-              deserunt dicta fugiat voluptas quo.<br />
+            <p><div class="tytul"><p>AZS</p></div>
+              Inaczej Akademiski Związek Sportowy. Historia tej organizacji sięga roku 1945, kiedy po II WŚ uruchomiono działalność Politechniki. Obecnie w AZS występują 24 sekcje sportowe, 8 sekcji rekracyjnych i 1 wyczynowa. Zadaniem tego stowarzyszenia jest również promocja sportu i zdrowego trybu życia wśród studentów i reszty społeczeństwa. Promocji tej dokonują na różne sposoby, na przykład poprzez organizację eventów sportowych. Do najpopularniejszych należą Bieg Kościuszkowski czy Regaty o Puchar Rektora PK.
             </p>
           </div>
           <div class="zdj">
             <img src="img/adapciak.jpg" height="300px" with="500px" />
           </div>
+        
+        <div class="organizacje">
+          <p><div class="tytul"><p>IAESTE PK</p></div>
+          IAESTE (The International Association for the Exchange of Students for Technical Experience) to stowarzyszenie działające już 70 lat. Nasza organizacja została założona w 1948 roku w londyńskim Imperial College w celu integracji i promowania międzynarodowego zrozumienia po II Wojnie Światowej.<br>
+          Od początku swojego istnienia IAESTE zorganizowało wymiany dla 350 000 studentów które odgrywają kluczową rolę w rozwoju młodych inżynierów i naukowców. Jesteśmy organizacją non profit, a wszyscy nasi członkowie pracują na zasadzie wolontariatu.<br>
+          Przez 70 lat organizacja rozrosła się do potężnych rozmiarów zasilając swoje szeregi członkami z ponad 85 krajów oraz nawiązując współpracę z ponad 5000 firmami i instytucjami.
+          </p>
         </div>
-        <div style="clear: both"></div>
-
-        <div id="section_sklep">
-          <h1>SKLEP</h1>
-          <br /><br /><br />
-
-          <div class="photos">
-            <div class="row1">
-              <img
-                src="https://www.pk.edu.pl/images/forArticles/gadzety/tadeusz.jpg"
-                alt="kosciusko"
-              />
-              <img
-                src="https://www.pk.edu.pl/images/forArticles/gadzety/kub_term1.jpg"
-                alt="kubek"
-              />
-              <img
-                src="https://www.pk.edu.pl/images/forArticles/gadzety/notesik.jpg"
-                alt="notes"
-              />
-              <img
-                src="https://www.pk.edu.pl/images/forArticles/gadzety/maseczka.jpg"
-                alt="maseczka"
-              />
-              <img
-                src="https://www.pk.edu.pl/images/forArticles/gadzety/touchpen.jpg"
-                alt="długopis"
-              />
-            </div>
-          </div>
+        <div class="zdj">
+          <img
+            src="img/rajd.jpg"
+            height="300px"
+            with="500px"
+          />
         </div>
+
+        <div class="organizacje">
+          <p><div class="tytul"><p>NZS PK</p></div>
+          NZS to organizacja powstała w 1980 roku. Mimo upływu czasu jego siłę wciąż stanowią młodzi, aktywni ludzie, którzy chcą mieć wpływ na tworzenie rzeczywistości.NZS tworzą ludzie o nieprzeciętnej wyobraźni, szalonych pomysłach i niezaspokojonej ciekawości świata. Ich celem jest aktywne tworzenie studenckiej rzeczywistości, ale też dobra zabawa! W tym Stowarzyszeniu spotykają się osoby, które chcą dobrze wykorzystać okres studiów. Celem członków organizacji jest aktywne wpływanie na rzeczywistość. Dlatego też wspólnie realizują wiele wartościowych przedsięwzięć, doskonalą umiejętności i zdobywają cenne doświadczenie zawodowe. Jedną z popularniejszych akcji organizowanych przez NZS jest wampiriada, czyli zachęcanie studentów do oddawania krwi. 
+          </p>
+        </div>
+        <div class="zdj">
+          <img
+            src="img/rajd.jpg"
+            height="300px"
+            with="500px"
+          />
+        </div>
+       
+
+      </selection>
       </div>
-    </div>
+   
     <div id="footer">
       <div class="footer-left">
         <div class="stopowe_menu">
