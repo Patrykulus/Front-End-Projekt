@@ -253,6 +253,12 @@ a.header {
     border: 5px solid;
     border-color: slateblue;
 }
+.kubek img{
+    transition: transform 0.3s;
+  }
+.kubek img:hover { 
+    transform: scale(1.25);
+  }
 .kubek_opis 
 {
     grid-column: 1/2;
@@ -262,6 +268,7 @@ a.header {
     flex-wrap: wrap;
     font-size: 30px;
     align-content:center;
+    font-weight: bold;
 }
 .kubek_cena{
     grid-column: 1/2;
@@ -278,8 +285,19 @@ a.header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    color: white;
-    background-color: slateblue;
+    color: slateblue;
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 6px solid;
+    border-color:slateblue;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+.kubek_dodaj{
+    text-align: center;
 }
 
 .smycz{
@@ -293,6 +311,12 @@ a.header {
     border: 5px solid;
     border-color: slateblue;
 }
+.smycz img{
+    transition: transform 0.3s;
+  }
+.smycz img:hover { 
+    transform: scale(1.25);
+  }
 .smycz_opis
 {
     grid-column: 2/3;
@@ -302,6 +326,7 @@ a.header {
     flex-wrap: wrap;
     font-size: 30px;
     align-content:center;
+    font-weight: bold;
 }
 .smycz_cena{
     grid-column: 2/3;
@@ -317,12 +342,23 @@ a.header {
     grid-column: 2/3;
     grid-row: 4/5;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    color: white;
-    background-color: slateblue;
-    margin-left: 5%;
+    color: slateblue;
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 6px solid;
+    border-color:slateblue;
+    padding-bottom: 2px;
+    font-weight: bold;
 }
+.smycz_dodaj{
+    text-align: center;
+}
+
 .dlugopis{
     grid-column: 3/4;
     grid-row: 1/2;
@@ -334,6 +370,12 @@ a.header {
     border: 5px solid;
     border-color: slateblue;
 }
+.dlugopis img{
+    transition: transform 0.3s;
+  }
+.dlugopis img:hover { 
+    transform: scale(1.25);
+  }
 .dlugopis_opis
 {
     grid-column: 3/4;
@@ -343,6 +385,7 @@ a.header {
     flex-wrap: wrap;
     font-size: 30px;
     align-content:center;
+    font-weight: bold;
 }
 .dlugopis_cena{
     grid-column: 3/4;
@@ -358,11 +401,21 @@ a.header {
     grid-column: 3/4;
     grid-row: 4/5;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    color: white;
-    background-color: slateblue;
-    margin-left: 5%;
+    color: slateblue;
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 6px solid;
+    border-color:slateblue;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+.dlugopis_dodaj{
+    text-align: center;
 }
 .maseczka{
     grid-column: 1/2;
@@ -376,6 +429,12 @@ a.header {
     border-color: slateblue;
     place-items: center;
 }
+.maseczka img{
+    transition: transform 0.3s;
+  }
+.maseczka img:hover { 
+    transform: scale(1.25);
+  }
 .maseczka_opis
 {
     grid-column: 1/2;
@@ -386,6 +445,7 @@ a.header {
     font-size: 30px;
     align-items:center;
     align-content:center;
+    font-weight: bold;
 }
 .maseczka_cena{
     grid-column: 1/2;
@@ -401,14 +461,23 @@ a.header {
     grid-column: 1/2;
     grid-row: 8/9;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    color: white;
-    background-color: slateblue;
-    align-items:center;
-    align-content:center;
+    color: slateblue;
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 6px solid;
+    border-color:slateblue;
+    padding-bottom: 2px;
+    font-weight: bold;
 }
-.brelok{
+.maseczka_dodaj{
+    text-align: center;
+}
+.apaszka{
     grid-column: 2/3;
     grid-row: 5/6;
     display: flex;
@@ -421,7 +490,13 @@ a.header {
     justify-content: center;
     align-content:center;
 }
-.brelok_opis
+.apaszka img{
+    transition: transform 0.3s;
+  }
+.apaszka img:hover { 
+    transform: scale(1.25);
+  }
+.apaszka_opis
 {
     grid-column: 2/3;
     grid-row: 6/7;
@@ -431,9 +506,10 @@ a.header {
     font-size: 30px;
     align-items:center;
     align-content:center;
+    font-weight: bold;
   
 }
-.brelok_cena{
+.apaszka_cena{
     grid-column: 2/3;
     grid-row: 7/8;
     display: flex;
@@ -444,16 +520,25 @@ a.header {
     align-content:center;
    
 }
-.brelok_dodaj button{
+.apaszka_dodaj button{
     grid-column: 2/3;
     grid-row: 8/9;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    color: white;
-    background-color: slateblue;
-    align-items:center;
-    align-content:center;
+    color: slateblue;
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 6px solid;
+    border-color:slateblue;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+.apaszka_dodaj{
+    text-align: center;
 }
 .portfel{
     grid-column: 3/4;
@@ -465,6 +550,12 @@ a.header {
     border: 5px solid;
     border-color: slateblue;
 }
+.portfel img{
+    transition: transform 0.3s;
+  }
+.portfel img:hover { 
+    transform: scale(1.25);
+  }
 .portfel_opis
 {
     grid-column: 3/4;
@@ -475,6 +566,7 @@ a.header {
     font-size: 30px;
     align-items:center;
     align-content:center;
+    font-weight: bold;
   
 }
 .portfel_cena{
@@ -492,12 +584,21 @@ a.header {
     grid-column: 3/4;
     grid-row: 8/9;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    color: white;
-    background-color: slateblue;
-    align-items:center;
-    align-content:center;
+    color: slateblue;
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 6px solid;
+    border-color:slateblue;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+.portfel_dodaj{
+    text-align: center;
 }
 .koszulka{
     grid-column: 1/2;
@@ -510,6 +611,12 @@ a.header {
     border: 5px solid;
     border-color: slateblue;
 }
+.koszulka img{
+    transition: transform 0.3s;
+  }
+.koszulka img:hover { 
+    transform: scale(1.25);
+  }
 .koszulka_opis
 {
     grid-column: 1/2;
@@ -520,7 +627,7 @@ a.header {
     font-size: 30px;
     align-items:center;
     align-content:center;
-  
+    font-weight: bold;
 }
 .koszulka_cena{
     grid-column: 1/2;
@@ -537,25 +644,45 @@ a.header {
     grid-column: 1/2;
     grid-row: 12/13;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    color: white;
-    background-color: slateblue;
-    align-items:center;
-    align-content:center;
+    color: slateblue;
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 6px solid;
+    border-color:slateblue;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+.koszulka_dodaj{
+    text-align: center;
 }
 .laser{
     grid-column: 2/3;
     grid-row: 9/10;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items:center;
-    align-content:center;
-    border: 5px solid;
-    border-color: slateblue;
-    place-items: center;
+    color: slateblue;
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 6px solid;
+    border-color:slateblue;
+    padding-bottom: 2px;
+    font-weight: bold;
 }
+.laser img{
+    transition: transform 0.3s;
+  }
+.laser img:hover { 
+    transform: scale(1.25);
+  }
 .laser_opis
 {
     grid-column: 2/3;
@@ -566,7 +693,7 @@ a.header {
     font-size: 30px;
     align-items:center;
     align-content:center;
-  
+    font-weight: bold;
 }
 .laser_cena{
     grid-column: 2/3;
@@ -584,14 +711,24 @@ a.header {
     grid-column: 2/3;
     grid-row: 12/13;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    color: white;
-    background-color: slateblue;
-    align-items:center;
-    align-content:center;
+    color: slateblue;
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 6px solid;
+    border-color:slateblue;
+    padding-bottom: 2px;
+    font-weight: bold;
 }
-.miarka{
+.laser_dodaj{
+    text-align: center;
+}
+
+.skarpetki{
     grid-column: 3/4;
     grid-row: 9/10;
     display: flex;
@@ -603,7 +740,13 @@ a.header {
     border-color: slateblue;
     place-items: center;
 }
-.miarka_opis
+.skarpetki img{
+    transition: transform 0.3s;
+  }
+.skarpetki img:hover { 
+    transform: scale(1.25);
+  }
+.skarpetki_opis
 {
     grid-column: 3/4;
     grid-row: 10/11;
@@ -613,9 +756,10 @@ a.header {
     font-size: 30px;
     align-items:center;
     align-content:center;
+    font-weight: bold;
   
 }
-.miarka_cena{
+.skarpetki_cena{
     grid-column: 3/4;
     grid-row: 11/12;
     display: flex;
@@ -626,16 +770,25 @@ a.header {
     align-content:center;
    
 }
-.miarka_dodaj button{
+.skarpetki_dodaj button{
     grid-column: 3/4;
     grid-row: 12/13;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    color: white;
-    background-color: slateblue;
-    align-items:center;
-    align-content:center;
+    color: slateblue;
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 6px solid;
+    border-color:slateblue;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+.skarpetki_dodaj{
+    text-align: center;
 }
 
 
