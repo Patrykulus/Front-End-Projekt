@@ -238,23 +238,24 @@ a.header {
 .content{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: repeat(12,auto);    
+    grid-template-rows: repeat(15,auto);    
     grid-template-areas: 
-    "zdj_1_kolumna_1_area          zdj_1_kolumna_2_area          zdj_1_kolumna_2_area"
-    "sklep_1_kolumna_opis_1_area   sklep_2_kolumna_opis_1_area   sklep_2_kolumna_opis_1_area"
-    "cena_1_kolumna_1_area         cena_1_kolumna_2_area         cena_1_kolumna_2_area"
-    "dodaj_1_kolumna_1_area        dodaj_1_kolumna_2_area        dodaj_1_kolumna_2_area"
-    "zdj_2_kolumna_1_area          zdj_2_kolumna_2_area          zdj_2_kolumna_2_area"
-    "sklep_1_kolumna_opis_2_area   sklep_2_kolumna_opis_2_area   sklep_2_kolumna_opis_2_area"
-    "cena_2_kolumna_1_area         cena_2_kolumna_2_area         cena_2_kolumna_2_area"
-    "dodaj_2_kolumna_1_area        dodaj_2_kolumna_2_area        dodaj_2_kolumna_2_area"
-    "zdj_3_kolumna_1_area          zdj_3_kolumna_2_area          zdj_3_kolumna_2_area "
-    "sklep_1_kolumna_opis_2_area   sklep_2_kolumna_opis_3_area   sklep_2_kolumna_opis_3_area"
-    "cena_3_kolumna_1_area         cena_3_kolumna_2_area         cena_3_kolumna_2_area"
-    "dodaj_3_kolumna_1_area        dodaj_3_kolumna_2_area        dodaj_3_kolumna_2_area ";
+    "zdj_1_kolumna_1_area          zdj_1_kolumna_2_area          zdj_1_kolumna_3_area"
+    "sklep_1_kolumna_opis_1_area   sklep_2_kolumna_opis_1_area   sklep_3_kolumna_opis_1_area"
+    "cena_1_kolumna_1_area         cena_1_kolumna_2_area         cena_1_kolumna_3_area"
+    "dodaj_1_kolumna_1_area        dodaj_1_kolumna_2_area        dodaj_1_kolumna_3_area"
+    "zdj_2_kolumna_1_area          zdj_2_kolumna_2_area          zdj_2_kolumna_3_area"
+    "sklep_1_kolumna_opis_2_area   sklep_2_kolumna_opis_2_area   sklep_3_kolumna_opis_2_area"
+    "cena_2_kolumna_1_area         cena_2_kolumna_2_area         cena_2_kolumna_3_area"
+    "dodaj_2_kolumna_1_area        dodaj_2_kolumna_2_area        dodaj_2_kolumna_3_area"
+    "zdj_3_kolumna_1_area          zdj_3_kolumna_2_area          zdj_3_kolumna_3_area "
+    "sklep_1_kolumna_opis_2_area   sklep_2_kolumna_opis_3_area   sklep_3_kolumna_opis_3_area"
+    "cena_3_kolumna_1_area         cena_3_kolumna_2_area         cena_3_kolumna_3_area"
+    "dodaj_3_kolumna_1_area        dodaj_3_kolumna_2_area        dodaj_3_kolumna_3_area ";
 }
 .zdj_1_kolumna_1 img{
     grid: zdj_1_kolumna_1_area;
+   
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -265,9 +266,10 @@ a.header {
     border: 5px solid;
     border-color: slateblue;
 }
-.sklep_1_kolumna_opis_1
+.sklep_1_kolumna_opis_1 
 {
     grid: sklep_1_kolumna_opis_1_area;
+   
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -276,16 +278,20 @@ a.header {
 }
 .cena_1_kolumna_1{
     grid: cena_1_kolumna_1_area;
+    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     font-size: 30px;
     padding-left: 7%;
 }
 .dodaj_1_kolumna_1 button{
-    grid: dodaj_1_kolumna_1_area;
+    grid: dodaj_1_kolumna_3_area;
+  
+  grid-column-start: 3;
+  grid-column-end: 3;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     color: white;
     background-color: slateblue;
@@ -293,6 +299,7 @@ a.header {
 }
 .zdj_2_kolumna_1 img{
     grid: zdj_2_kolumna_1_area;
+ 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -306,6 +313,7 @@ a.header {
 .sklep_1_kolumna_opis_2
 {
     grid: sklep_1_kolumna_opis_2_area;
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -314,6 +322,7 @@ a.header {
 }
 .cena_2_kolumna_1{
     grid: cena_2_kolumna_1_area;
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -322,6 +331,7 @@ a.header {
 }
 .dodaj_2_kolumna_1 button{
     grid: dodaj_2_kolumna_1_area;
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -331,6 +341,7 @@ a.header {
 }
 .zdj_3_kolumna_1 img{
     grid: zdj_3_kolumna_1_area;
+   
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -344,6 +355,7 @@ a.header {
 .sklep_1_kolumna_opis_3
 {
     grid: sklep_1_kolumna_opis_3_area;
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -352,6 +364,7 @@ a.header {
 }
 .cena_3_kolumna_1{
     grid: cena_3_kolumna_1_area;
+   
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -360,6 +373,7 @@ a.header {
 }
 .dodaj_3_kolumna_1 button{
     grid: dodaj_3_kolumna_1_area;
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -368,32 +382,7 @@ a.header {
     margin-left: 5%;
     
 }
-.sklep_1_kolumna_opis_3
-{
-    grid: sklep_1_kolumna_opis_3_area;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-size: 30px;
-    padding-left: 2%;
-}
-.cena_3_kolumna_1{
-    grid: cena_3_kolumna_1_area;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-size: 30px;
-    padding-left: 7.5%;
-}
-.dodaj_3_kolumna_1 button{
-    grid: dodaj_3_kolumna_1_area;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    color: white;
-    background-color: slateblue;
-    margin-left: 5%;
-}
+
 .zdj_1_kolumna_2 img{
     grid: zdj_1_kolumna_2_area;
     display: flex;
