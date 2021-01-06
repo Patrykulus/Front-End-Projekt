@@ -7,10 +7,12 @@
     box-sizing: border-box;
 }
 
-body {
+html,body {
     background-color: #FEFCFF;
     font-family: 'Red Rose', cursive;
-    margin: 0;
+    margin:0;
+	padding:0;
+	height:100%;
 }
 
 .breadcrumb{
@@ -155,68 +157,10 @@ body {
 
 }
 
-#footer {
-    background-color: #5E507A;
-    height: auto;
-    width: auto;
-}
-
-.footer-left {
-
-    float: left;
-    text-align: center;
-    margin-left: 10%;
-
-}
-
-.footer-right {
-    float: right;
-    text-align: center;
-    margin-right: 10%;
-    margin-top: 0.5%;
-    margin-bottom: 1%;
-    letter-spacing: 5px;
-}
-
-button {
-    font-size: 30px;
-    border: none;
-    background-color: #5E507A;
-}
-
-#content {
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    justify-content: stretch;
-    align-content: left;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    text-align: justify;
-
-}
-
 h1 {
     font-size: 40px;
     margin-top: 2%;
     text-align: center;
-
-}
-
-
-.stopowe_menu {
-    float: left;
-    margin-right: 20px;
-    margin-top: 4%;
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-
-.social {
-    margin-top: auto;
 }
 
 a.header {
@@ -238,7 +182,7 @@ a.header {
 .content{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: repeat(12,auto);  
+    grid-template-rows: repeat(13,auto);  
     grid-column-gap: 1.5%;  
     grid-row-gap: 0.5%;
 }
@@ -790,6 +734,31 @@ a.header {
 .skarpetki_dodaj{
     text-align: center;
 }
+.stopka {
+    display: flex;
+    flex-direction: row;
+    clear: both;
+    width:100%;
+    height:60px;
+    position: fixed;
+    bottom: 0;
+    background-color:#5E507A;
+    align-items:center;
+    align-content:center;
+    text-align: center;
+    color: black;
+}
+button {
+    font-size: 30px;
+    border: none;
+    background-color: #5E507A;
+}
+.stopka>ul{
+    letter-spacing: 2px;
+    margin: 0 auto;
+
+
+}
 
 
 @keyframes slidy {
@@ -1072,9 +1041,12 @@ h3{
     .skarpetki_dodaj {
         grid-column: 1/2;
         grid-row:20/21;
-        margin-top: 30%;
         justify-content: center;
         align-content:center;
+    }
+    .stopka {
+        display: flex;
+        flex-direction: row;
     }
 }
 @media screen and (max-width:900px)
@@ -1320,7 +1292,6 @@ h3{
         .skarpetki_dodaj {
             grid-column: 1/2;
             grid-row:36/37;
-            margin-top: 30%;
             justify-content: center;
             align-content:center;
         }
