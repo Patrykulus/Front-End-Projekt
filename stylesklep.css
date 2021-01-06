@@ -829,3 +829,505 @@ h3{
     letter-spacing: 1px;
     
 }
+@media screen and (max-width:1350px)
+{
+    .content {
+    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    grid-template-rows: repeat(21,auto);  
+    grid-column-gap: 1.5%;  
+    grid-row-gap: 0.5%;
+    justify-content: center;
+    align-content:center;
+
+    }
+    .kubek {
+        
+        display: flex;
+        grid-column: 1/2;
+        grid-row:1/2;
+        justify-content: center;
+        align-content:center;
+        align-items:center;
+    }
+    .kubek_opis {
+        display: flex;
+        grid-column: 1/2;
+        grid-row:2/3;
+        justify-content: center;
+        align-content:center;
+        align-items:center;
+    }
+    .kubek_cena {
+        display: flex;
+        grid-column: 1/2;
+        grid-row:3/4;
+        justify-content: center;
+        align-content:center;
+        align-items:center;
+    }
+    .kubek_dodaj {
+        display: flex;
+        grid-column: 1/2;
+        grid-row:4/5;
+        justify-content: center;
+        align-content:center;
+        align-items:center;
+        
+    }
+    .smycz {
+        display: flex;
+        grid-column: 2/3;
+        grid-row:1/2;
+        justify-content: center;
+        align-content:center;
+        align-items:center;
+    }
+    .smycz_opis {
+        display: flex;
+        grid-column: 2/3;
+        grid-row:2/3;
+        justify-content: center;
+        align-content:center;
+        align-items:center;
+    }
+    .smycz_cena {
+        display: flex;
+        grid-column: 2/3;
+        grid-row:3/4;
+        align-items:center;
+    }
+    .smycz_dodaj {
+        display: flex;
+        grid-column: 2/3;
+        grid-row:4/5;
+        justify-content: center;
+        align-content:center;
+        align-items:center;
+        
+    }
+    .dlugopis {
+        grid-column: 1/2;
+        grid-row:5/6;
+        justify-content: center;
+        align-content:center;
+    }
+    .dlugopis_opis {
+        grid-column: 1/2;
+        grid-row:6/7;
+        justify-content: center;
+        align-content:center;
+    }
+    .dlugopis_cena {
+        grid-column: 1/2;
+        grid-row:7/8;
+        justify-content: center;
+        align-content:center;
+    }
+    .dlugopis_dodaj {
+        grid-column: 1/2;
+        grid-row:8/9;
+        justify-content: center;
+        align-content:center;
+    }
+    .maseczka {
+        grid-column: 2/3;
+        grid-row:5/6;
+        justify-content: center;
+        align-content:center;
+    }
+    .maseczka_opis {
+        grid-column: 2/3;
+        grid-row:6/7;
+        justify-content: center;
+        align-content:center;
+    }
+    .maseczka_cena {
+        grid-column: 2/3;
+        grid-row:7/8;
+        justify-content: center;
+        align-content:center;
+    }
+    .maseczka_dodaj {
+        grid-column: 2/3;
+        grid-row:8/9;
+        justify-content: center;
+        align-content:center;
+    }
+    .apaszka {
+        grid-column: 1/2;
+        grid-row:9/10;
+        justify-content: center;
+        align-content:center;
+    }
+    .apaszka_opis {
+        grid-column: 1/2;
+        grid-row:10/11;
+        justify-content: center;
+        align-content:center;
+    }
+    .apaszka_cena {
+        grid-column: 1/2;
+        grid-row:11/12;
+        justify-content: center;
+        align-content:center;
+    }
+    .apaszka_dodaj {
+        grid-column: 1/2;
+        grid-row:12/13;
+        justify-content: center;
+        align-content:center;
+    }
+    .portfel {
+        grid-column: 2/3;
+        grid-row:9/10;
+        justify-content: center;
+        align-content:center;
+    }
+    .portfel_opis {
+        grid-column: 2/3;
+        grid-row:10/11;
+        justify-content: center;
+        align-content:center;
+    }
+    .portfel_cena {
+        grid-column: 2/3;
+        grid-row:11/12;
+        justify-content: center;
+        align-content:center;
+    }
+    .portfel_dodaj {
+        grid-column: 2/3;
+        grid-row:12/13;
+        justify-content: center;
+        align-content:center;
+    }
+    .koszulka {
+        grid-column: 1/2;
+        grid-row:13/14;
+        justify-content: center;
+        align-content:center;
+    }
+    .koszulka_opis {
+        grid-column: 1/2;
+        grid-row:14/15;
+        justify-content: center;
+        align-content:center;
+    }
+    .koszulka_cena {
+        grid-column: 1/2;
+        grid-row:15/16;
+        justify-content: center;
+        align-content:center;
+    }
+    .koszulka_dodaj {
+        grid-column: 1/2;
+        grid-row:16/17;
+        justify-content: center;
+        align-content:center;
+    }
+    .laser {
+        grid-column: 2/3;
+        grid-row:13/14;
+        justify-content: center;
+        align-content:center;
+    }
+    .laser_opis {
+        grid-column: 2/3;
+        grid-row:14/15;
+        justify-content: center;
+        align-content:center;
+    }
+    .laser_cena {
+        grid-column: 2/3;
+        grid-row:15/16;
+        justify-content: center;
+        align-content:center;
+    }
+    .laser_dodaj {
+        grid-column: 2/3;
+        grid-row:16/17;
+        justify-content: center;
+        align-content:center;
+    }
+    .skarpetki {
+        grid-column: 1/2;
+        grid-row:17/18;
+        justify-content: center;
+        align-content:center;
+    }
+    .skarpetki_opis {
+        grid-column: 1/2;
+        grid-row:18/19;
+        justify-content: center;
+        align-content:center;
+    }
+    .skarpetki_cena {
+        grid-column: 1/2;
+        grid-row:19/20;
+        justify-content: center;
+        align-content:center;
+    }
+    .skarpetki_dodaj {
+        grid-column: 1/2;
+        grid-row:20/21;
+        margin-top: 30%;
+        justify-content: center;
+        align-content:center;
+    }
+}
+@media screen and (max-width:900px)
+{
+    .content {
+        display: flex;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: repeat(36,auto);  
+        grid-column-gap: 1.5%;  
+        grid-row-gap: 0.5%;
+        justify-content: center;
+        align-content:center;
+    
+        }
+        .kubek {
+            
+            display: flex;
+            grid-column: 1/2;
+            grid-row:1/2;
+            justify-content: center;
+            align-content:center;
+            align-items:center;
+        }
+        .kubek_opis {
+            display: flex;
+            grid-column: 1/2;
+            grid-row:2/3;
+            justify-content: center;
+            align-content:center;
+            align-items:center;
+        }
+        .kubek_cena {
+            display: flex;
+            grid-column: 1/2;
+            grid-row:3/4;
+            justify-content: center;
+            align-content:center;
+            align-items:center;
+        }
+        .kubek_dodaj {
+            display: flex;
+            grid-column: 1/2;
+            grid-row:4/5;
+            justify-content: center;
+            align-content:center;
+            align-items:center;
+            
+        }
+        .smycz {
+            display: flex;
+            grid-column: 1/2;
+            grid-row:5/6;
+            justify-content: center;
+            align-content:center;
+            align-items:center;
+        }
+        .smycz_opis {
+            display: flex;
+            grid-column: 1/2;
+            grid-row: 6/7;
+            justify-content: center;
+            align-content:center;
+            align-items:center;
+        }
+        .smycz_cena {
+            display: flex;
+            grid-column: 1/2;
+            grid-row:7/8;
+            align-items:center;
+        }
+        .smycz_dodaj {
+            display: flex;
+            grid-column: 1/2;
+            grid-row:8/9;
+            justify-content: center;
+            align-content:center;
+            align-items:center;
+            
+        }
+        .dlugopis {
+            grid-column: 1/2;
+            grid-row:9/10;
+            justify-content: center;
+            align-content:center;
+        }
+        .dlugopis_opis {
+            grid-column: 1/2;
+            grid-row:10/11;
+            justify-content: center;
+            align-content:center;
+        }
+        .dlugopis_cena {
+            grid-column: 1/2;
+            grid-row:11/12;
+            justify-content: center;
+            align-content:center;
+        }
+        .dlugopis_dodaj {
+            grid-column: 1/2;
+            grid-row:12/13;
+            justify-content: center;
+            align-content:center;
+        }
+        .maseczka {
+            grid-column: 1/2;
+            grid-row:13/14;
+            justify-content: center;
+            align-content:center;
+        }
+        .maseczka_opis {
+            grid-column: 1/2;
+            grid-row:14/15;
+            justify-content: center;
+            align-content:center;
+        }
+        .maseczka_cena {
+            grid-column: 1/2;
+            grid-row:15/16;
+            justify-content: center;
+            align-content:center;
+        }
+        .maseczka_dodaj {
+            grid-column: 1/2;
+            grid-row:16/17;
+            justify-content: center;
+            align-content:center;
+        }
+        .apaszka {
+            grid-column: 1/2;
+            grid-row:17/18;
+            justify-content: center;
+            align-content:center;
+        }
+        .apaszka_opis {
+            grid-column: 1/2;
+            grid-row:18/19;
+            justify-content: center;
+            align-content:center;
+        }
+        .apaszka_cena {
+            grid-column: 1/2;
+            grid-row:19/20;
+            justify-content: center;
+            align-content:center;
+        }
+        .apaszka_dodaj {
+            grid-column: 1/2;
+            grid-row:20/21;
+            justify-content: center;
+            align-content:center;
+        }
+        .portfel {
+            grid-column: 1/2;
+            grid-row:21/22;
+            justify-content: center;
+            align-content:center;
+        }
+        .portfel_opis {
+            grid-column: 1/2;
+            grid-row:22/23;
+            justify-content: center;
+            align-content:center;
+        }
+        .portfel_cena {
+            grid-column: 1/2;
+            grid-row:23/24;
+            justify-content: center;
+            align-content:center;
+        }
+        .portfel_dodaj {
+            grid-column: 1/2;
+            grid-row:24/25;
+            justify-content: center;
+            align-content:center;
+        }
+        .koszulka {
+            grid-column: 1/2;
+            grid-row:25/26;
+            justify-content: center;
+            align-content:center;
+        }
+        .koszulka_opis {
+            grid-column: 1/2;
+            grid-row:26/27;
+            justify-content: center;
+            align-content:center;
+        }
+        .koszulka_cena {
+            grid-column: 1/2;
+            grid-row:27/28;
+            justify-content: center;
+            align-content:center;
+        }
+        .koszulka_dodaj {
+            grid-column: 1/2;
+            grid-row:28/29;
+            justify-content: center;
+            align-content:center;
+        }
+        .laser {
+            grid-column: 1/2;
+            grid-row:29/30;
+            justify-content: center;
+            align-content:center;
+        }
+        .laser_opis {
+            grid-column: 1/2;
+            grid-row:30/31;
+            justify-content: center;
+            align-content:center;
+        }
+        .laser_cena {
+            grid-column: 1/2;
+            grid-row:31/32;
+            justify-content: center;
+            align-content:center;
+        }
+        .laser_dodaj {
+            grid-column: 1/2;
+            grid-row:32/33;
+            justify-content: center;
+            align-content:center;
+        }
+        .skarpetki {
+            grid-column: 1/2;
+            grid-row:33/34;
+            justify-content: center;
+            align-content:center;
+        }
+        .skarpetki_opis {
+            grid-column: 1/2;
+            grid-row:34/35;
+            justify-content: center;
+            align-content:center;
+        }
+        .skarpetki_cena {
+            grid-column: 1/2;
+            grid-row:35/36;
+            justify-content: center;
+            align-content:center;
+        }
+        .skarpetki_dodaj {
+            grid-column: 1/2;
+            grid-row:36/37;
+            margin-top: 30%;
+            justify-content: center;
+            align-content:center;
+        }
+
+
+
+
+
+
+}
