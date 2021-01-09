@@ -13,6 +13,7 @@
       src="https://kit.fontawesome.com/bc965c8b13.js"
       crossorigin="anonymous"
     ></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </head>
 
 
@@ -40,16 +41,17 @@
       </div>
 
 
-      <div class="mainitem_nav">
-        <div class="przycisk"><a href="stronaglowna.html">Strona główna</a></div>
-        <div class="przycisk"><a href="sklep.html">Sklep</a></div>
-        <div class="przycisk"><a href="organizacje.html">Organizacje studenckie</a></div>
-        <div class="przycisk"><a
-            href="https://www.pk.edu.pl/index.php?option=com_jevents&view=month&layout=calendar&Itemid=1299&lang=pl"
-            target="blank">Kalendarium</a>
-        </div>
-      </div>
-      <div style="clear: both"></div>
+      <nav>
+        <ul>
+         <a href="stronaglowna.html"><li>Strona główna</li></a> 
+         <a href="sklep.html"><li>Sklep</li></a>
+         <a href="organizacje.html"><li>Organizacje studenckie</li></a>
+         <a href="https://www.pk.edu.pl/index.php?option=com_jevents&view=month&layout=calendar&Itemid=1299&lang=pl" target="blank"><li>Kalendarium </li></a>
+          <div style="clear: both"></div>
+        </ul>
+        <div class="handle">Menu</div>
+      </nav>
+
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="stronaglowna.html">Strona Główna > </a></li>
         <li class="breadcrumb-item_active"> Sklep</li>
@@ -211,5 +213,10 @@
           </button>
         </ul>
       </div>
+      <script>
+        $('.handle').on('click', function(){
+        $('nav ul').toggleClass('showing');
+        });
+      </script>
   </body>
 </html>
