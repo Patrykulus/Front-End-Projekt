@@ -13,7 +13,7 @@ html,body {
     margin:0;
 	padding:0;
     height:100%;
-    
+
 }
 
 .header {
@@ -86,14 +86,14 @@ nav ul{
     padding: 0;
     text-align:center ;
     margin: 0;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     -webkit-transition: max-height 0.4s;
     -ms-transition: max-height 0.4s;
     -moz-transition: max-height 0.4s;
     -o-transition: max-height 0.4s;
     transition: max-height 0.4s;
-    
+
 }
 a{
     text-decoration: none;
@@ -170,7 +170,7 @@ nav ul li:hover{
     align-items:center;
     align-self: stretch;
     width: 50%;
-    text-align: justify; 
+    text-align: justify;
     margin-bottom: 10%;
     padding-right: 20pxS;
 }
@@ -194,14 +194,14 @@ nav ul li:hover{
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    letter-spacing: 1px;  
+    letter-spacing: 1px;
     justify-content: center;
     align-items:center;
     flex-wrap: nowrap;
     align-self: stretch;
     margin-right: 2%;
     font-size: 20px;
-    font-weight: 100;  
+    font-weight: 100;
 }
 
 .stopka {
@@ -216,7 +216,7 @@ nav ul li:hover{
     align-items:center;
     align-content:center;
     text-align: center;
-    
+
 }
 button {
     font-size: 30px;
@@ -270,7 +270,8 @@ a.header {
     50% { left: -200%; }
     70% { left: -200%; }
     75% { left: -300%; }
-    95% { left: -300%; }
+    85% { left: -300%; }
+    95% { left: -400%; }
     100% { left: -400%; }
     }
 
@@ -298,12 +299,12 @@ a.header {
 
 h3{
     letter-spacing: 1px;
-    
+
 }
 @media screen and (max-width:750px){
     nav ul{
         max-height: 0;
-    } 
+    }
     .showing{
         max-height: 20em;
     }
@@ -313,7 +314,7 @@ h3{
      padding: 15px;
      text-align: left;
  }
- 
+
  .handle{
      display: block;
  }

@@ -13,20 +13,20 @@ html,body {
     margin:0;
 	padding:0;
     height:100%;
-    
+
 }
 
 .breadcrumb{
     display: flex;
 
- 
+
     margin-right: 64.5%;
-  
+
     color: #cccccc;
 }
 .breadcrumb-item>a{
     display: flex;
-    
+
     font-size: 20px;
     font-style: italic;
     color: #cccccc;
@@ -54,7 +54,7 @@ html,body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    
+
     align-content: center;
     padding: 1%;
     width: 100%;
@@ -127,14 +127,14 @@ nav ul{
     padding: 0;
     text-align:center ;
     margin: 0;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     -webkit-transition: max-height 0.4s;
     -ms-transition: max-height 0.4s;
     -moz-transition: max-height 0.4s;
     -o-transition: max-height 0.4s;
     transition: max-height 0.4s;
-    
+
 }
 a{
     text-decoration: none;
@@ -166,7 +166,7 @@ nav ul li:hover{
 @media screen and (max-width:750px){
     nav ul{
         max-height: 0;
-    } 
+    }
     .showing{
         max-height: 20em;
     }
@@ -176,7 +176,7 @@ nav ul li:hover{
      padding: 15px;
      text-align: left;
  }
- 
+
  .handle{
      display: block;
  }
@@ -239,8 +239,8 @@ a.header {
 .content{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: repeat(13,auto);  
-    grid-column-gap: 1.5%;  
+    grid-template-rows: repeat(13,auto);
+    grid-column-gap: 1.5%;
     grid-row-gap: 0.5%;
 }
 .kubek{
@@ -257,10 +257,10 @@ a.header {
 .kubek img{
     transition: transform 0.3s;
   }
-.kubek img:hover { 
+.kubek img:hover {
     transform: scale(1.25);
   }
-.kubek_opis 
+.kubek_opis
 {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -315,7 +315,7 @@ a.header {
 .smycz img{
     transition: transform 0.3s;
   }
-.smycz img:hover { 
+.smycz img:hover {
     transform: scale(1.25);
   }
 .smycz_opis
@@ -374,7 +374,7 @@ a.header {
 .dlugopis img{
     transition: transform 0.3s;
   }
-.dlugopis img:hover { 
+.dlugopis img:hover {
     transform: scale(1.25);
   }
 .dlugopis_opis
@@ -398,7 +398,7 @@ a.header {
     justify-content: center;
     align-content:center;
 }
-.dlugopis_dodaj button{ 
+.dlugopis_dodaj button{
     grid-column: 3/4;
     grid-row: 4/5;
     display: flex;
@@ -433,7 +433,7 @@ a.header {
 .maseczka img{
     transition: transform 0.3s;
   }
-.maseczka img:hover { 
+.maseczka img:hover {
     transform: scale(1.25);
   }
 .maseczka_opis
@@ -456,7 +456,7 @@ a.header {
     flex-wrap: wrap;
     font-size: 30px;
     align-items:center;
-    align-content:center;  
+    align-content:center;
 }
 .maseczka_dodaj button{
     grid-column: 1/2;
@@ -494,7 +494,7 @@ a.header {
 .apaszka img{
     transition: transform 0.3s;
   }
-.apaszka img:hover { 
+.apaszka img:hover {
     transform: scale(1.25);
   }
 .apaszka_opis
@@ -508,7 +508,7 @@ a.header {
     align-items:center;
     align-content:center;
     font-weight: bold;
-  
+
 }
 .apaszka_cena{
     grid-column: 2/3;
@@ -519,7 +519,7 @@ a.header {
     font-size: 30px;
     align-items:center;
     align-content:center;
-   
+
 }
 .apaszka_dodaj button{
     grid-column: 2/3;
@@ -554,7 +554,7 @@ a.header {
 .portfel img{
     transition: transform 0.3s;
   }
-.portfel img:hover { 
+.portfel img:hover {
     transform: scale(1.25);
   }
 .portfel_opis
@@ -568,7 +568,7 @@ a.header {
     align-items:center;
     align-content:center;
     font-weight: bold;
-  
+
 }
 .portfel_cena{
     grid-column: 3/4;
@@ -579,7 +579,7 @@ a.header {
     font-size: 30px;
     align-items:center;
     align-content:center;
-   
+
 }
 .portfel_dodaj button{
     grid-column: 3/4;
@@ -615,7 +615,7 @@ a.header {
 .koszulka img{
     transition: transform 0.3s;
   }
-.koszulka img:hover { 
+.koszulka img:hover {
     transform: scale(1.25);
   }
 .koszulka_opis
@@ -639,7 +639,7 @@ a.header {
     font-size: 30px;
     align-items:center;
     align-content:center;
-   
+
 }
 .koszulka_dodaj button{
     grid-column: 1/2;
@@ -681,7 +681,7 @@ a.header {
 .laser img{
     transition: transform 0.3s;
   }
-.laser img:hover { 
+.laser img:hover {
     transform: scale(1.25);
   }
 .laser_opis
@@ -705,7 +705,7 @@ a.header {
     font-size: 30px;
     align-items:center;
     align-content:center;
-   
+
 }
 
 .laser_dodaj button{
@@ -744,7 +744,7 @@ a.header {
 .skarpetki img{
     transition: transform 0.3s;
   }
-.skarpetki img:hover { 
+.skarpetki img:hover {
     transform: scale(1.25);
   }
 .skarpetki_opis
@@ -758,7 +758,7 @@ a.header {
     align-items:center;
     align-content:center;
     font-weight: bold;
-  
+
 }
 .skarpetki_cena{
     grid-column: 3/4;
@@ -769,7 +769,7 @@ a.header {
     font-size: 30px;
     align-items:center;
     align-content:center;
-   
+
 }
 .skarpetki_dodaj button{
     grid-column: 3/4;
@@ -803,7 +803,7 @@ a.header {
     align-items:center;
     align-content:center;
     text-align: center;
-    
+
 }
 button {
     font-size: 30px;
@@ -825,7 +825,8 @@ button {
     50% { left: -200%; }
     70% { left: -200%; }
     75% { left: -300%; }
-    95% { left: -300%; }
+    85% { left: -300%; }
+    95% { left: -400%; }
     100% { left: -400%; }
     }
 
@@ -852,7 +853,7 @@ button {
 
 h3{
     letter-spacing: 1px;
-    
+
 }
 @media screen and (max-width:1350px)
 {
@@ -860,15 +861,15 @@ h3{
     display: flex;
     display: grid;
     grid-template-columns: 2fr 2fr ;
-    grid-template-rows: repeat(21,auto);  
-    grid-column-gap: 1.5%;  
+    grid-template-rows: repeat(21,auto);
+    grid-column-gap: 1.5%;
     grid-row-gap: 0.5%;
     justify-content: center;
     align-content:center;
 
     }
     .kubek {
-        
+
         display: flex;
         grid-column: 1/2;
         grid-row:1/2;
@@ -899,7 +900,7 @@ h3{
         justify-content: center;
         align-content:center;
         align-items:center;
-        
+
     }
     .smycz {
         display: flex;
@@ -930,7 +931,7 @@ h3{
         justify-content: center;
         align-content:center;
         align-items:center;
-        
+
     }
     .dlugopis {
         grid-column: 1/2;
@@ -1111,15 +1112,15 @@ h3{
         display: flex;
         display: grid;
         grid-template-columns: 2fr;
-        grid-template-rows: repeat(36,auto);  
-        grid-column-gap: 1.5%;  
+        grid-template-rows: repeat(36,auto);
+        grid-column-gap: 1.5%;
         grid-row-gap: 0.5%;
         justify-content: center;
         align-content:center;
-    
+
         }
         .kubek {
-            
+
             display: flex;
             grid-column: 1/2;
             grid-row:1/2;
@@ -1150,7 +1151,7 @@ h3{
             justify-content: center;
             align-content:center;
             align-items:center;
-            
+
         }
         .smycz {
             display: flex;
@@ -1181,7 +1182,7 @@ h3{
             justify-content: center;
             align-content:center;
             align-items:center;
-            
+
         }
         .dlugopis {
             grid-column: 1/2;
